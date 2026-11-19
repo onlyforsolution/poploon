@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PopLoon Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #121a2b;
+      --text: #e8eefc;
+      --muted: #a9b4cc;
+      --accent: #ffd54f;
+      --line: rgba(255,255,255,0.12);
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #0b1220 0%, #152238 100%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .card {
+      background: rgba(18, 26, 43, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      letter-spacing: 0.3px;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+    h3 {
+      margin-top: 18px;
+      font-size: 1.05rem;
+    }
+    p, li { color: var(--muted); }
+    strong, b { color: var(--text); }
+    .meta {
+      margin: 12px 0 20px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: rgba(255,213,79,0.08);
+      border: 1px solid rgba(255,213,79,0.25);
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 8px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+    }
+    td { color: var(--muted); }
+    a { color: var(--accent); }
+    code {
+      background: rgba(255,255,255,0.06);
+      padding: 1px 6px;
+      border-radius: 6px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 24px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Privacy Policy — PopLoon</h1>
+      <div class="meta">
+        <div><strong>Effective date:</strong> November 19, 2026</div>
+        <div><strong>Last updated:</strong> November 19, 2026</div>
+        <div><strong>Operator:</strong> Only for Solution (“we,” “us,” “our”)</div>
+        <div><strong>Contact:</strong> <a href="mailto:onlyforsolution@gmail.com">onlyforsolution@gmail.com</a></div>
+        <div><strong>App:</strong> PopLoon (<code>com.poploon.app</code>)</div>
+      </div>
+
+      <h2>1. Introduction</h2>
+      <p>
+        PopLoon (“the App”) is a casual balloon-popping mobile game operated by Only for Solution.
+        This Privacy Policy explains how we collect, use, disclose, and protect information when you use the App on Android or iOS,
+        and when you use related services such as our Balloon App API at <code>balloonappapi.emotionhealer.com</code>.
+      </p>
+      <p>By using the App, you agree to this Privacy Policy. If you do not agree, do not use the App.</p>
+      <p>PopLoon is an entertainment game. It is not a medical, clinical, or diagnostic product.</p>
+
+      <h2>2. Information We Collect</h2>
+
+      <h3>2.1 Information You Provide</h3>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Account credentials — email, password, full name (optional)</td><td>Create and secure your account (signup, OTP verification, login)</td></tr>
+          <tr><td>Profile information — full name, phone, bio, avatar URL</td><td>Display and update your profile</td></tr>
+          <tr><td>Password reset email and OTP</td><td>Recover account access</td></tr>
+          <tr><td>Support messages</td><td>Respond to support requests</td></tr>
+        </tbody>
+      </table>
+
+      <h3>2.2 Game Progress Information</h3>
+      <p>When you play, we may store and sync game progress with our servers, including:</p>
+      <ul>
+        <li>Level</li>
+        <li>Score and high score</li>
+        <li>Coins</li>
+        <li>Lives</li>
+        <li>Balloons popped</li>
+        <li>Combo / best combo</li>
+        <li>Game status (playing, paused, game over)</li>
+        <li>Games played counters</li>
+      </ul>
+      <p>This lets you continue progress after logout/login and across sessions.</p>
+
+      <h3>2.3 Photos / Balloon Images (Optional)</h3>
+      <ul>
+        <li>The image is selected from your device gallery with your permission</li>
+        <li>The App may process the image on-device (for example, a simple cartoon/avatar-style filter) before showing it on balloons</li>
+        <li>We do <strong>not</strong> require uploading that gallery photo to our servers for core gameplay</li>
+        <li>If you enter an avatar URL in your profile, that URL may be saved with your account profile</li>
+      </ul>
+
+      <h3>2.4 Information Collected Automatically</h3>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Authentication token</td><td>Keep you signed in</td></tr>
+          <tr><td>Device and app technical data</td><td>Troubleshooting, security, and reliability</td></tr>
+          <tr><td>Technical logs — IP address, timestamps, errors</td><td>Fraud prevention and service reliability</td></tr>
+          <tr><td>Advertising identifiers / ad interaction data (via Google Mobile Ads)</td><td>Show interstitial ads (for example after completing a level)</td></tr>
+        </tbody>
+      </table>
+
+      <h3>2.5 Information Stored on Your Device</h3>
+      <ul>
+        <li>Login session / access token</li>
+        <li>Basic cached account preferences needed for sign-in state</li>
+      </ul>
+
+      <h3>2.6 Information We Do Not Collect (for PopLoon)</h3>
+      <ul>
+        <li>Precise GPS location</li>
+        <li>Contacts list</li>
+        <li>Microphone audio</li>
+        <li>Health / fitness data</li>
+        <li>Payment card details inside the App (any store billing is handled by Google Play / Apple)</li>
+      </ul>
+
+      <h2>3. How We Use Your Information</h2>
+      <ul>
+        <li>Create and manage your PopLoon account</li>
+        <li>Authenticate you and keep your session secure</li>
+        <li>Save and restore game progress (level, score, coins, lives, etc.)</li>
+        <li>Update and display your profile</li>
+        <li>Show ads in the App (including interstitial ads between levels)</li>
+        <li>Improve stability, security, and performance</li>
+        <li>Respond to support requests</li>
+        <li>Comply with legal obligations</li>
+      </ul>
+      <p>We do <strong>not</strong> sell your personal information.</p>
+
+      <h2>4. Legal Bases (EEA / UK Users)</h2>
+      <ul>
+        <li><strong>Contract:</strong> To provide the App, account, and game features you request</li>
+        <li><strong>Consent:</strong> Optional features such as gallery image access and personalized ads (where required)</li>
+        <li><strong>Legitimate interests:</strong> Security, fraud prevention, and service improvement</li>
+        <li><strong>Legal obligation:</strong> Compliance with applicable laws</li>
+      </ul>
+
+      <h2>5. How We Share Information</h2>
+      <h3>5.1 Service Providers</h3>
+      <table>
+        <thead>
+          <tr><th>Provider</th><th>Role</th><th>Typical Data</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Balloon App API (<code>balloonappapi.emotionhealer.com</code>) / emotionhealer.com infrastructure</td>
+            <td>Backend hosting and API services</td>
+            <td>Account, profile, game progress</td>
+          </tr>
+          <tr>
+            <td>Google Mobile Ads (AdMob)</td>
+            <td>In-app advertising</td>
+            <td>Device/ad identifiers, coarse device info, ad events</td>
+          </tr>
+          <tr>
+            <td>Google Play / Apple App Store</td>
+            <td>App distribution and store services</td>
+            <td>Account and purchase-related data handled by the stores</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>5.2 Legal and Safety</h3>
+      <p>We may disclose information if required by law or necessary to protect rights, safety, or security.</p>
+
+      <h3>5.3 Business Transfers</h3>
+      <p>If our business is merged, acquired, or sold, your information may transfer to the successor organization under continued privacy protections.</p>
+
+      <h2>6. Advertising</h2>
+      <p>
+        PopLoon may show interstitial ads (for example after a level is completed) using Google Mobile Ads.
+        Ad networks may collect or receive device identifiers and usage data to provide and measure ads,
+        subject to their own privacy policies and your device ad settings.
+      </p>
+      <p>You can often limit ad personalization in your device settings (Google / Apple advertising settings).</p>
+
+      <h2>7. International Data Transfers</h2>
+      <p>
+        Your data may be processed outside your country, including India or other regions where our services or providers are hosted.
+        Where required, we use appropriate safeguards for international transfers.
+      </p>
+
+      <h2>8. Data Retention</h2>
+      <ul>
+        <li><strong>Account and profile data</strong> — while your account is active, and for a limited period after deletion (typically up to 90 days for backup/cleanup)</li>
+        <li><strong>Game progress</strong> — while your account is active; removed or anonymized when the account is deleted</li>
+        <li><strong>Server logs</strong> — typically up to 90 days</li>
+        <li><strong>Local session tokens</strong> — until logout, token expiry, or app data clear</li>
+      </ul>
+      <p>Some residual data may remain briefly in encrypted backups.</p>
+
+      <h2>9. Your Rights and Choices</h2>
+      <p>Depending on your location, you may have rights to:</p>
+      <ul>
+        <li>Access your personal data</li>
+        <li>Correct inaccurate information (including via in-app profile update)</li>
+        <li>Delete your account (in-app <strong>Delete account</strong> uses <code>DELETE /api/v1/users/me</code>)</li>
+        <li>Export / request a copy of your data</li>
+        <li>Restrict or object to certain processing</li>
+        <li>Manage ad preferences on your device</li>
+      </ul>
+      <p>California residents may have additional rights under CCPA/CPRA.</p>
+      <p>To exercise rights, use in-app account tools where available or email <a href="mailto:onlyforsolution@gmail.com">onlyforsolution@gmail.com</a>.</p>
+
+      <h2>10. Security</h2>
+      <p>We use measures such as HTTPS, authenticated APIs (Bearer tokens), and access controls. No method of transmission or storage is 100% secure.</p>
+
+      <h2>11. Children’s Privacy</h2>
+      <p>
+        The App is not directed to children under 13 (or under 16 where required by local law).
+        If we learn that a child has provided personal data without appropriate consent, we will delete it.
+      </p>
+
+      <h2>12. Third-Party Services</h2>
+      <p>Third-party services (including Google Mobile Ads and app stores) are governed by their own privacy policies. We are not responsible for their independent practices.</p>
+
+      <h2>13. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy periodically. The updated version will be posted at the public policy URL, with a revised “Last updated” date.</p>
+
+      <h2>14. Contact Us</h2>
+      <p>
+        <strong>Only for Solution</strong><br />
+        Email: <a href="mailto:onlyforsolution@gmail.com">onlyforsolution@gmail.com</a><br />
+        Support: <a href="mailto:onlyforsolution@gmail.com">onlyforsolution@gmail.com</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
